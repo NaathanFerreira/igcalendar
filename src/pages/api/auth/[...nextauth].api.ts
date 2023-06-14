@@ -23,8 +23,9 @@ export function buildNextAuthOptions(
             response_type: 'code',
             // ask if user authorize to use following infos (email, profile and calendar)
             // scopes: https://developers.google.com/identity/protocols/oauth2/scopes?hl=pt-br
+            // https://www.googleapis.com/auth/drive
             scope:
-              ' https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/drive',
+              ' https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/calendar ',
           },
         },
         // data that returns from the google user profile
